@@ -43,13 +43,13 @@
   backface-visibility: hidden;
 }
 .card-front{
-  background-image: url("../images/card-bg.png");
+  background-image: url("../images/card-bg-front.png");
   background-size: cover;
-  background-position: 0 100%;
+  /* background-position: 0 100%; */
 }
 
 .card-back {
-  background-image: url("../images/card-bg.png");
+  background-image: url("../images/card-bg-back.png");
   background-size: cover;
   color: #000;
   transform: rotateY( 180deg );
