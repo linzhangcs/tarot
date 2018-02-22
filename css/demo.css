@@ -48,6 +48,9 @@ h6 {
     text-transform: uppercase;
 		margin: 0;
 }
+h4{
+  font-family: "Astloch", cursive;
+}
 .container > header {
 	width: 100%;
 	margin: 0 auto;

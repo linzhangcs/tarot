@@ -10,12 +10,34 @@
   position: relative;
   left: 5%;
   width: 29%;
-  height: 500px;
+  height: 520px;
   margin: 2% 0 0;
   float: left;
   perspective: 500px;
 }
 
+.card h3{
+  color: #9c8337;
+  font-size: 1.8em;
+  background: rgba(255, 255, 255, 0.45);
+  text-transform: uppercase;
+  font-family: "khand";
+  font-weight: 100;
+  border: dotted 1px #000;
+  /* border-radius: 10px 10px 0 0; */
+  width: 95%;
+  margin-left: 4%;
+}
+.card h4{
+  margin: -230px 0 20px;
+  font-size: 3rem;
+  font-weight: 100;
+}
+.card .text p{
+  margin: -250px 10px 0 10px;
+  font-size: 1.2rem;
+  width: 90%;
+}
 .content {
   position: absolute;
   width: 100%;
@@ -25,7 +47,14 @@
   transition: transform 1s;
   transform-style: preserve-3d;
 }
+#card-img0, #card-img1, #card-img2{
+  display: inline-block;
+  margin: 20px 10px 0 22px;
+}
+#card-img0 img, #card-img1 img, #card-img2 img{
+  width: 98%;
 
+}
 .card:hover .content {
   transform: rotateY( 180deg ) ;
   transition: transform 0.5s;
@@ -36,7 +65,7 @@
   height: 100%;
   width: 100%;
   line-height: 300px;
-  color: #03446A;
+  color: #fff;
   text-align: center;
   font-size: 60px;
   border-radius: 5px;
@@ -45,6 +74,7 @@
 .card-front{
   background-image: url("../images/card-bg-front.png");
   background-size: cover;
+  color: #fff;
   /* background-position: 0 100%; */
 }
 
